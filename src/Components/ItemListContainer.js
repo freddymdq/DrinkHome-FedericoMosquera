@@ -1,14 +1,14 @@
 import React from 'react'
 
-const ItemListContainer = ({text, text2}) => {
+const ItemListContainer = ({greeting, greeting2}) => {
 
   return (
     <>
     <div className='p-4 bg-neutral text-white text-7xl '> 
-        {text}
+        {greeting}
     </div>
     <div className='p-4 bg-neutral text-white text-3xl text-success'>
-        {text2}
+        {greeting2}
     </div>
     </>
   )

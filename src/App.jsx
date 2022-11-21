@@ -1,8 +1,8 @@
 
 import './App.css';
 import Footer from './Components/Footer';
-import NavBar from './Components/NavBar';
-import ItemListContainer from './Components/ItemListContainer';
+import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
+import NavBar from './Components/NavBar/NavBar';
 
 function App() {
   return (
